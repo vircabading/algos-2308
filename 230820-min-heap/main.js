@@ -35,3 +35,7 @@ console.log(insertIntoHeap([undefined], 10));
 console.log("****************************");
 console.log("heap: [undefined,10, 12, 16] || val: 8");
 console.log(insertIntoHeap([undefined, 10, 12, 16], 8));
+
+console.log("****************************");
+console.log("heap: [undefined,3, 8, 10, 11, 9, 20, 14] || val: 7");
+console.log(insertIntoHeap([undefined, 3, 8, 10, 11, 9, 20, 14], 7));
